@@ -4,7 +4,7 @@ import path from "path";
 
 import { connectDB } from "./config/db.js";
 
-import productRoutes from "./routes/ProductRoute.js";
+import productRoutes from "./routes/product.route.js";
 
 dotenv.config();
 
@@ -28,6 +28,3 @@ app.listen(PORT, () => {
 	connectDB();
 	console.log("Server started at http://localhost:" + PORT);
 });
-
- //user name zineeddinelouati2000
- //password 6C96imdXy7sSCmXj
